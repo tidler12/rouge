@@ -1,0 +1,140 @@
+/* BASE SECTION */
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; }
+
+/* GRID */
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 600px;
+    float: left;
+}
+
+.third-width {
+    width: 359px;
+    height: 150px;
+    float: left;  
+}
+
+/* HEADER SECTION */
+
+header {
+    clear: both;
+}
+
+header h1 {
+    font-size: 30px;
+    margin: 35px 0;
+    margin: 21px 0;
+}
+
+h1, h3, h4, h5 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav {
+    float: right;
+    margin: 10px 0;
+}
+
+nav ul li {
+display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 12px;
+}
+
+/* #WELCOME SECTION */
+
+h3 {
+    color: #77a466;
+    font-size: 18px;
+    padding: 5px 0;
+}
+
+span {
+    color: #77a466;
+}
+
+img {
+    width: 1200px;
+    border-bottom: 4px solid #77a466;
+    border-top: 4px solid #77a466;
+}
+
+p {
+    font-size: 16px;
+}
+
+/* #ABOUT SECTION */
+
+#about {
+    border-top: 1px solid #dedbdc;
+ }
+
+#specials, #reviews {
+    border-right: 1px solid #dedbdc;
+}
+
+
+#specials p {
+    color: #77a466;
+}
+ 
+h4 {
+    font-size: 12px;
+    margin: 15px 0;
+}
+
+#specials, #reviews, #contact{
+    padding: 30px 20px;
+}
+
+#about p, h4 {
+    margin: 10px;
+    padding: 2px;
+}
+
+#contact p {
+    line-height: 28px;
+}
+
+
+/* FOOTER SECTION */
+
+footer {
+    border-top: 1px solid #dedbdc;
+    clear: both;
+    text-align: center;
+}
+
+em {
+    font-family: 'Script MT Bold', cursive;
+    text-transform: lowercase;
+}
